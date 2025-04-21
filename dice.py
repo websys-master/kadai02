@@ -5,7 +5,7 @@ for i in range(10):
     print(str(i+1)+"回目："+str(x))
     y += x
 average = y/10
-
+print("平均値：" + str(average))
 # 期待される出力結果例
 """
 1回目：4
