@@ -1,8 +1,16 @@
 import random
+import statistics
+from unittest import result
 
+def new_func(x):
+    result.append(x)
+    
 for i in range(10):
     x = random.randint(1,6)
     print(str(i+1)+"回目："+str(x))
+
+average = statistics.mean(result)
+print("平均値：" + str(round(average, 1)))
 
 # 期待される出力結果例
 """
