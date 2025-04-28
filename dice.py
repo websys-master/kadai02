@@ -1,8 +1,11 @@
 import random
-
+a=0
 for i in range(10):
     x = random.randint(1,6)
+    a += x
     print(str(i+1)+"回目："+str(x))
+heikin = a / 10  # 平均値を計算
+print("平均値：" + str(heikin))
 
 # 期待される出力結果例
 """
