@@ -4,6 +4,10 @@ for i in range(10):
     x = random.randint(1,6)
     print(str(i+1)+"回目："+str(x))
 
+numbers = ((i+1)+x)
+average = sum(numbers) / len(numbers)
+print("平均値":+average)
+
 # 期待される出力結果例
 """
 1回目：4
